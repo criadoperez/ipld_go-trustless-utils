@@ -7,7 +7,7 @@ import (
 )
 
 var _ datamodel.Node = nil // suppress errors when this dependency is not referenced
-// Type is a struct embeding a NodePrototype/Type for every Node implementation in this package.
+// Type is a struct embedding a NodePrototype/Type for every Node implementation in this package.
 // One of its major uses is to start the construction of a value.
 // You can use it like this:
 //

@@ -21,7 +21,7 @@ const (
 )
 
 var (
-	ResponseChunkDelimeter = []byte("0\r\n") // An http/1.1 chunk delimeter, used for specifying an early end to the response
+	ResponseChunkDelimeter = []byte("0\r\n") // An http/1.1 chunk delimiter, used for specifying an early end to the response
 )
 
 // ContentType represents a Content-Type descriptor for use with the response
